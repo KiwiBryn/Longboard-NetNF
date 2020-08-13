@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "WiiNunchukTest", "WiiNunchukTest\WiiNunchukTest.nfproj", "{249E8DDB-5665-4823-B666-C60F3B382FAE}"
 EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "ADCTest", "ADCTest\ADCTest.nfproj", "{A35C99A3-7212-40B8-B23D-495F3C35B9E3}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "PWMTest", "PWMTest\PWMTest.nfproj", "{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,18 @@ Global
 		{249E8DDB-5665-4823-B666-C60F3B382FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249E8DDB-5665-4823-B666-C60F3B382FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{249E8DDB-5665-4823-B666-C60F3B382FAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35C99A3-7212-40B8-B23D-495F3C35B9E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2CA78B-028A-4B27-91AA-6C4BCDFF3E85}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
