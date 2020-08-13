@@ -50,10 +50,10 @@ namespace Toolbox.NETMF.Hardware
       /// <summary>
       /// Initialises a new Wii Nunchuk
       /// </summary>
-      /// <param name="busId">The speed in Khz</param>
-      /// <param name="slaveAddress">The I²C address</param>
-      /// <param name="busSpeed">The speed in Khz</param>
-      /// <param name="sharingMode">The speed in Khz</param>
+      /// <param name="busId">The identifier of the I²C bus.</param>
+      /// <param name="slaveAddress">The I²C address.</param>
+      /// <param name="busSpeed">The bus speed, an enumeration that defaults to StandardMode</param>
+      /// <param name="sharingMode">The sharing mode, an enumeration that defaults to Shared.</param>
       public WiiNunchuk(string busId, ushort slaveAddress = 0x52, I2cBusSpeed busSpeed = I2cBusSpeed.StandardMode, I2cSharingMode sharingMode = I2cSharingMode.Shared)
       {
          I2cTransferResult result;
