@@ -15,7 +15,7 @@
 //
 // nanoff --target NETDUINO3_WIFI --update
 //---------------------------------------------------------------------------------
-namespace devMobile.LongBoard.PwmTest
+namespace devMobile.Longboard.PwmTest
 {
    using System;
    using System.Threading;
@@ -27,7 +27,7 @@ namespace devMobile.LongBoard.PwmTest
    {
       public static void Main()
       {
-         Debug.WriteLine("devMobile.LongBoard.PwmTest starting");
+         Debug.WriteLine("devMobile.Longboard.PwmTest starting");
          Debug.WriteLine(PwmController.GetDeviceSelector());
 
          try
