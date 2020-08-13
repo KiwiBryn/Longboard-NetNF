@@ -15,7 +15,7 @@
 //
 // nanoff --target NETDUINO3_WIFI --update
 //---------------------------------------------------------------------------------
-namespace devMobile.LongBoard.WiiNunchuckTest
+namespace devMobile.Longboard.WiiNunchuckTest
 {
    using System;
    using System.Diagnostics;
@@ -28,7 +28,7 @@ namespace devMobile.LongBoard.WiiNunchuckTest
    {
       public static void Main()
       {
-         Debug.WriteLine("devMobile.LongBoard.WiiNunchuckTest starting");
+         Debug.WriteLine("devMobile.Longboard.WiiNunchuckTest starting");
          Debug.WriteLine(I2cDevice.GetDeviceSelector());
 
          try
