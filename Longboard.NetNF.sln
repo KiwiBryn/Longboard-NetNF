@@ -13,6 +13,8 @@ Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "ServoTest", "ServoTest\Serv
 EndProject
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Longboard", "Longboard\Longboard.nfproj", "{AF48145D-BCAD-4710-A1A0-3FF0BCD3663A}"
 EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "WiiNunchuk", "WiiNunchuk\WiiNunchuk.nfproj", "{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,12 @@ Global
 		{AF48145D-BCAD-4710-A1A0-3FF0BCD3663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF48145D-BCAD-4710-A1A0-3FF0BCD3663A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF48145D-BCAD-4710-A1A0-3FF0BCD3663A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74090E2-37F5-4E2F-A5A4-9BAD9A021EF9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
